@@ -8,6 +8,7 @@
 /* header */
 header {
     padding: 20px;
+    background-color: white;
 }
 
 h1 {
@@ -20,17 +21,16 @@ img {
 }
 
 /* main content */
-main {
-    background-color: #f6f8f9;
-    padding: 30px;
+body {
+    background-color: #f6f8f9;;
 }
 
 .container {
     width: 70%;
-    margin: auto;
+    margin: 30px auto;
     background-color: white;
     border-radius: 5px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 button {
