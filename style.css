@@ -28,25 +28,64 @@ main {
 .container {
     width: 70%;
     margin: auto;
-    padding: 10px;
     background-color: white;
     border-radius: 5px;
+    padding-bottom: 40px;
 }
 
 button {
-    border-radius: 5px;
+    border-radius: 5px;;
     padding: 10px;
     border-style: solid;
+    margin-top: 15px;
 }
 
 .button-1 {
     color: #fff;
     background-color: #47adf1;
     border-color: #47adf1;
+    margin-left: 40px;
 }
 
 .button-2 {
     color: #d1d6da;
     background-color: #fff;
     border-color: #d1d6da;
+}
+
+hr {
+    border: solid 1px #f6f8f9;
+    margin: 10px 0px;
+}
+
+h2 {
+    color: #444850;
+    margin: 30px 0px 10px 40px;
+}
+
+.task {
+    margin-left: 40px;
+    margin-bottom: 10px;
+    color: #454a51;
+}
+
+span {
+    border-radius: 50%;
+    padding: 4px;
+    margin-right: 10px;
+}
+
+.ok {    
+    border: solid 1px #64c0a9;
+    color: #64c0a9;
+}
+
+.ko {
+    border: solid 1px #eb5952;
+    color: #eb5952;
+}
+
+.Tag {
+    font-size: 10px;
+    border-radius: 3px;
 }
